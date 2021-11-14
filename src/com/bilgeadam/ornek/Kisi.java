@@ -64,12 +64,12 @@ public class Kisi {
     @Override
     public String toString() {
         return "Kisi{" +
-                "no=" + no +
-                ", ad=" + ad +
-                ", soyad=" + soyad +
-                ", maas=" + maas +
-                ", Yıllık Maaş=" + yillik_maas_getir() +
-                ", Ad Soyad:" + adSoyadGetir() +
+                "no=" + no + "\n" +
+                ", ad=" + ad + "\n" +
+                ", soyad=" + soyad + "\n" +
+                ", maas=" + maas + "\n" +
+                ", Yıllık Maaş=" + yillik_maas_getir() + "\n" +
+                ", Ad Soyad:" + adSoyadGetir() + "\n" +
                 '}';
     }
 }
